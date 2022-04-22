@@ -1,0 +1,155 @@
+#home{
+
+  color: #00235C;
+  padding: 42px 100px;
+  
+
+}
+
+#home > header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 52px;
+}
+
+#home > header > .logo{
+  display: flex;
+  align-items: center;
+  width: 130px;
+  height: 37px;
+  background-color: #00235C;
+  color: #fff;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 12.6857px;
+  line-height: 18px; 
+}
+
+#home > header > .logo > .letter{
+  height: 37px;
+  width: 37px;
+  background: #fff;
+  color: #00235C;
+  display: grid;
+  place-content: center;
+  margin-right: 9px;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 22.5524px;
+  line-height: 18px;
+
+}
+
+
+#home > header > nav {
+  display: flex;
+  justify-content: space-between;
+}
+#home > header > nav > a{
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  padding: 5px 10px;
+  margin: 0 35px;
+}
+
+#home > header > nav > a.active{
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+}
+
+#home > header > button{
+  background-color: #fff;
+  color: #116CFF;
+  border-radius: 10px;
+  border: 0;
+  padding: 10px 30px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+#home > main {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  text-align: left;
+  padding-bottom: 143px;
+}
+
+#home > main > img {
+  width: 657px;
+  height: 454px;
+}
+
+#home > main h1 {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 50px;
+  line-height: 160%;
+
+  width: 522px;
+
+  margin-bottom: 16px;
+
+}
+
+#home > main p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 180%;
+
+    width: 403px;
+
+  margin-bottom: 32px;
+
+}
+
+#home > main div.buttons {
+  display: flex;
+
+}
+
+#home > main div.buttons > button {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+
+  color: #116CFF;
+
+  width: 200px;
+  height: 52px;
+  border: 0;
+
+  border-radius: 10px;
+
+  margin-right: 24px;
+  cursor: pointer;
+}
+
+#home > main div.buttons > button.outline {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+
+  color: #fff;
+
+  background-color: transparent;
+  border: 1px #fff solid;
+
+}

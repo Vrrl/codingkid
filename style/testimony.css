@@ -1,0 +1,203 @@
+
+#testimony {
+    padding: 60px 100px;
+    background-color: #fff;
+}
+
+#testimony > h5{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 50px;
+    color: #116CFF;
+    margin-bottom: 52px;
+}
+
+#testimony > main{
+    display: flex;
+    justify-content: space-between;
+    
+}
+#testimony > main > div{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#testimony > main > div > .testimony{
+    margin-bottom: 20px;
+    display: flex;
+    
+}
+
+#testimony > main > div > .testimony > .profile{
+    border-radius: 100%;
+    background-color: #fff;
+    width: 80px;
+    height: 80px;
+    display: grid;
+    place-content: center; 
+    
+}
+
+#testimony > main > div > .testimony > .profile > img{
+    border-radius: 100%;
+    width: 65px;
+    height: 65px;
+    
+}
+
+#testimony > main > div > .testimony > .baloon{
+    display: flex;
+    flex-direction: column;
+    background-color: #E7F0FF;
+    border-radius: 20px;
+    padding: 24px;
+    color: #00235C;
+    width: 440px;
+    height: 187px;
+    margin-left: 20px;
+    
+}
+#testimony > main > div > .testimony.right  {
+    flex-direction: row-reverse;
+
+    
+}
+
+#testimony > main > div > .testimony.right > .baloon  {
+    
+    margin-left: 0;
+    margin-right: 20px;
+
+    
+}
+
+#testimony > main > div > .testimony.right > .baloon::before{
+    content: "";
+    position: relative;
+    top: 20px;
+    margin-left: 414px;
+    margin-top: -20px;
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 10px solid #E7F0FF;
+    
+}
+
+#testimony > main > div > .testimony.left > .baloon::before{
+    content: "";
+    position: relative;
+    top: 20px;
+    margin-left: -33px;
+    margin-top: -20px;
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-right: 10px solid #E7F0FF;
+    
+}
+#testimony > main > div > .testimony.right > .orange.baloon::before{
+    border-left: 10px solid #FFE6E5;
+}
+#testimony > main > div > .testimony.left > .orange.baloon::before{
+    border-right: 10px solid #FFE6E5;
+}
+
+
+#testimony > main > div > .testimony > .baloon > .stars{
+    display: flex;
+    
+}
+
+#testimony > main > div > .testimony > .baloon > *{
+    margin-bottom: 8px;
+    
+}
+
+#testimony > main > div > .testimony > .baloon.orange{
+    background-color: #FFE6E5;
+    
+}
+
+#testimony > main > div > .testimony > .baloon > .stars{
+    color: #FF463A;
+    margin-right: 5px;
+    
+}
+#testimony > main > div > .testimony > .baloon > .stars > span{
+    margin-right: 3px;
+    
+}
+
+#testimony > main > div > .testimony > .baloon > h5{
+    font-size: 21px;
+    
+}
+
+#testimony > main > div > .testimony > .baloon > h5 > span{
+    font-weight: 400;
+    
+}
+
+#testimony > main > div > .testimony > .baloon > p{
+    font-weight: 400;
+    line-height: 39px;
+    font-size: 18px;
+}
+
+#testimony > main > div > .testimony > .baloon > p::before{
+    content: '“';
+    font-weight: 700;
+    color: #FF463A;
+    font-size: 32px;
+}
+#testimony > main > div > .testimony > .baloon > p::after{
+    content: '”';
+    font-weight: 700;
+    color: #FF463A;
+    font-size: 32px;
+}
+
+#testimony > div.more{
+    
+    text-align: right;
+    width: 100%;
+    margin: 40px 0;
+}
+
+#testimony > div.more > a{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 25px;
+    letter-spacing: 0.015em;
+    text-decoration-line: underline;
+    color: #116CFF;
+}
+
+#testimonybg{
+    position: relative;
+    width: 1px;
+    height: 1px;
+}
+
+#testimonybg > img{
+    position: relative;
+    width: 1051px;
+    height: 667.53px;
+    top: -57.64px;
+    z-index: 1;
+}
+
+#testimony > * {
+    position: relative;
+    z-index: 2;
+}
+
+
+
+

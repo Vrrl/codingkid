@@ -1,0 +1,143 @@
+#class {
+    padding: 60px 100px;
+}
+
+#class h5{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 50px;
+    color: #fff;
+
+    margin-bottom: 52px;
+}
+
+#class .table{
+    width: 100%;
+    
+
+}
+
+#class .table .row:first-child{
+    border-radius: 10px 10px 0px 0px;
+    border-left: 3px #FF463A solid;
+}
+
+#class .table .row{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-areas:
+		"title stars price";
+    padding: 16px 24px;
+    background-color: #fff;
+    align-items: center;
+    border-bottom: 1px #116cff3d solid;
+}
+#class .table .row .title{
+    grid-area: title;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+
+    color: #116CFF;
+}
+#class .table .row .stars{
+    grid-area: stars;
+    color: #fff;
+}
+#class .table .row .stars .checked{
+    grid-area: stars;
+    color: #FF463A;
+}
+#class .table .row .price{
+    grid-area: price;
+    text-align: right;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    color: #00235C;
+}
+#class .table .row .price.free{
+    color: #FF463A;
+}
+
+#class .table .row.selected{
+    display: grid;
+    grid-template-columns: 2fr 3fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+		"title feat btn"
+		"stars feat btn";
+    align-items: center;
+}
+
+#class .table .row.selected .feat{
+    grid-area: feat;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 50px 50px;
+    grid-template-areas:
+		"fprice ftime"
+        "fsize fmode";
+    
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    color: #00235C;
+}
+#class .table .row.selected .feat .fprice{
+    grid-area: fprice;
+}
+#class .table .row.selected .feat .ftime{
+    grid-area: ftime;
+}
+#class .table .row.selected .feat .fsize{
+    grid-area: fsize;
+}
+#class .table .row.selected .feat .fmode{
+    grid-area: fmode;
+}
+
+#class .table .row.selected .feat img{
+    width: 18px;
+
+}
+
+
+#class .table .row.selected .title{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+
+    color: #00235C;
+
+}
+
+#class .table .row.selected .price button{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #fff;
+    background-color: #116CFF;
+    padding: 13px 10px;
+    border-radius: 10px;
+    border: 0;
+
+}
+
+#class .table .row span.badge{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FF463A;
+    background-color: #FFE6E5;
+    border-radius: 5px;
+    padding: 4px 8px;
+
+}
+
+#class main{
+    padding-bottom: 160px;
+
+}
